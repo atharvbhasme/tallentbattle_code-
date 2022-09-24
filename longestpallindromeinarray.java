@@ -10,7 +10,7 @@ public class longestpallindromeinarray {
             arr[i] = sc.nextInt();
         }
         int largestpallindrome = arr[0];
-        int pallinarr[];
+        int pallinarr[] = {};
         int n = 0 ;
         for (int i = 0; i < arr.length; i++) {
             int reverse = 0;
